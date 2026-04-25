@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = "shamanettar05/myapp:v1"
-        DOCKER_CREDENTIALS_ID = "docker-hub-credentials"
+        DOCKER_CREDENTIALS_ID = "dockerhub-creds"
     }
 
     stages {
