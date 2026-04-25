@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/vvce23ise0051-creator/docker.git'
+                git branch: 'main', url: 'https://github.com/vvce23ise0051-creator/docker.git'
             }
         }
 
